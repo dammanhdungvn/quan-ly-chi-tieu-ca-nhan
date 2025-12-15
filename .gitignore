@@ -1,0 +1,38 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase configuration (contains sensitive data)
+google-services.json
+app/google-services.json
+
+# API keys and secrets
+*.properties
+!gradle-wrapper.properties
+
+# Build outputs
+*.apk
+*.ap_
+*.aab
+
+# User-specific files
+.idea/
+*.iws
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

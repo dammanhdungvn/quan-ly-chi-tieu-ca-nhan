@@ -1,0 +1,127 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Quản Lý Chi Tiêu</string>
+    
+    <!-- Authentication -->
+    <string name="login_title">Đăng Nhập</string>
+    <string name="register_title">Đăng Ký</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="display_name">Tên hiển thị</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="register_button">Đăng ký</string>
+    <string name="logout_button">Đăng xuất</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="have_account">Đã có tài khoản?</string>
+    <string name="register_link">Đăng ký ngay</string>
+    <string name="login_link">Đăng nhập</string>
+    
+    <!-- Validation -->
+    <string name="error_empty_email">Vui lòng nhập email</string>
+    <string name="error_invalid_email">Email không hợp lệ</string>
+    <string name="error_empty_password">Vui lòng nhập mật khẩu</string>
+    <string name="error_short_password">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="error_password_mismatch">Mật khẩu không khớp</string>
+    <string name="error_empty_name">Vui lòng nhập tên hiển thị</string>
+    <string name="error_empty_amount">Vui lòng nhập số tiền</string>
+    <string name="error_invalid_amount">Số tiền phải lớn hơn 0</string>
+    <string name="error_empty_category">Vui lòng chọn danh mục</string>
+    
+    <!-- Home -->
+    <string name="home_title">Trang chủ</string>
+    <string name="monthly_stats">Thống kê tháng này</string>
+    <string name="total_income">Tổng thu</string>
+    <string name="total_expense">Tổng chi</string>
+    <string name="balance">Số dư</string>
+    <string name="recent_transactions">Giao dịch gần đây</string>
+    <string name="no_transactions">Chưa có giao dịch nào</string>
+    <string name="add_first_transaction">Thêm giao dịch đầu tiên của bạn</string>
+    
+    <!-- Transactions -->
+    <string name="transactions_title">Giao dịch</string>
+    <string name="add_transaction">Thêm giao dịch</string>
+    <string name="edit_transaction">Sửa giao dịch</string>
+    <string name="delete_transaction">Xóa giao dịch</string>
+    <string name="transaction_type">Loại giao dịch</string>
+    <string name="income">Thu nhập</string>
+    <string name="expense">Chi tiêu</string>
+    <string name="amount">Số tiền</string>
+    <string name="category">Danh mục</string>
+    <string name="note">Ghi chú</string>
+    <string name="date">Ngày</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="select_date">Chọn ngày</string>
+    <string name="select_category">Chọn danh mục</string>
+    
+    <!-- Categories - Income -->
+    <string name="category_salary">Tiền lương</string>
+    <string name="category_business">Kinh doanh</string>
+    <string name="category_investment">Đầu tư</string>
+    <string name="category_gift_received">Quà tặng</string>
+    <string name="category_other_income">Thu nhập khác</string>
+    
+    <!-- Categories - Expense -->
+    <string name="category_food">Ăn uống</string>
+    <string name="category_transport">Di chuyển</string>
+    <string name="category_education">Học tập</string>
+    <string name="category_entertainment">Giải trí</string>
+    <string name="category_health">Sức khỏe</string>
+    <string name="category_shopping">Mua sắm</string>
+    <string name="category_bills">Hóa đơn</string>
+    <string name="category_other_expense">Chi tiêu khác</string>
+    
+    <!-- Category Management -->
+    <string name="add_custom_category">Thêm danh mục mới</string>
+    <string name="category_name">Tên danh mục</string>
+    <string name="custom_category">Danh mục tùy chỉnh</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Hồ sơ</string>
+    <string name="account_info">Thông tin tài khoản</string>
+    <string name="settings">Cài đặt</string>
+    
+    <!-- Dialogs -->
+    <string name="confirm">Xác nhận</string>
+    <string name="delete_confirm_title">Xóa giao dịch?</string>
+    <string name="delete_confirm_message">Bạn có chắc chắn muốn xóa giao dịch này không?</string>
+    <string name="logout_confirm_title">Đăng xuất?</string>
+    <string name="logout_confirm_message">Bạn có chắc chắn muốn đăng xuất không?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    
+    <!-- Messages -->
+    <string name="login_success">Đăng nhập thành công</string>
+    <string name="register_success">Đăng ký thành công</string>
+    <string name="logout_success">Đăng xuất thành công</string>
+    <string name="transaction_added">Đã thêm giao dịch</string>
+    <string name="transaction_updated">Đã cập nhật giao dịch</string>
+    <string name="transaction_deleted">Đã xóa giao dịch</string>
+    <string name="category_added">Đã thêm danh mục</string>
+    
+    <!-- Errors -->
+    <string name="error_login_failed">Đăng nhập thất bại</string>
+    <string name="error_register_failed">Đăng ký thất bại</string>
+    <string name="error_network">Lỗi kết nối mạng</string>
+    <string name="error_unknown">Đã xảy ra lỗi</string>
+    <string name="error_load_data">Không thể tải dữ liệu</string>
+    <string name="error_save_data">Không thể lưu dữ liệu</string>
+    
+    <!-- Loading -->
+    <string name="loading">Đang tải…</string>
+    <string name="please_wait">Vui lòng đợi…</string>
+    
+    <!-- Currency -->
+    <string name="currency_format">%s VNĐ</string>
+    <string name="currency_symbol">VNĐ</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_transactions">Giao dịch</string>
+    <string name="nav_profile">Hồ sơ</string>
+    
+    <!-- Date Format -->
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="datetime_format">dd/MM/yyyy HH:mm</string>
+</resources>
